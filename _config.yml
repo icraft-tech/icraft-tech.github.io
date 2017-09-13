@@ -26,7 +26,7 @@ github_username:  icraft-tech
 
 # Build settings
 markdown: kramdown
-theme: 
+theme: jekyll-swiss
 plugins:
   - jekyll-feed
 auto: true
