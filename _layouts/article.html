@@ -17,11 +17,12 @@ layout : default
 
 </article>
 
+{{ post.url }}
 
 <ul>
-    {% for post in site.posts %}
+    {% for post in site.posts limit:5 %}
         <li>
-            <a href="/blog_jekyll/_site{{ post.url }}">{{ post.title }}</a>
+            <a href="{{ post.url }}">{{ post.title }}</a>
         </li>
     {% endfor %}
 </ul>
