@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title:  "test2"
 date:   2017-09-15 00:40:35 -0700
 categories: jekyll update
