@@ -1,28 +1,13 @@
 -------------
-layout : default
+layout: default
 -------------
 
 <article>
-
-  <h2>
-    {{ page.title }}
-    <a href="{{ page.url }}" class="permalink" title="Permalink">∞</a>
-  </h2>
-  
- 　    {{ page.categories|page.date }}
-     
-   <div class="post-content">
-    {{ content }}
-   </div>
-
-</article>
-
-{{ post.url }}
-
-<ul>
+ <ul>
     {% for post in site.posts limit:5 %}
         <li>
             <a href="{{ post.url }}">{{ post.title }}</a>
         </li>
     {% endfor %}
-</ul>
+ </ul>
+</article>
