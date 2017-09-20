@@ -483,7 +483,7 @@ text-decoration: none; }
   white-space:nowrap;
   overflow:hidden;
   text-overflow:ellipsis;
-  height: 40px
+  height: 100px
 }
 
 .pagination{
