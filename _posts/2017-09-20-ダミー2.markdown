@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "ダミ－２"
-date:   2017-09-12 00:40:35 -0700
+date:   2017-09-20 05:40:35 -0700
 categories: jekyll update
 ---
 
