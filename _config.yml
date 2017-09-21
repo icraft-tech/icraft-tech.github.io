@@ -36,7 +36,8 @@ server: true
 # paginate
 gems:
   - jekyll-paginate
-paginate: 
+paginate: 3
+paginate_path: "/page:num/"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
