@@ -506,3 +506,16 @@ text-decoration: none; }
     color: white;
   }
 }
+
+.navi{
+    position: relative;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    vertical-align: middle;
+
+    font-size: 1.33333333em;
+    line-height: .75em;
+    vertical-align: -15%;
+}
