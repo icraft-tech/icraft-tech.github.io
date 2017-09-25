@@ -1,11 +1,12 @@
+<nav class="pagination" role="navigation"}
 {{% if page.previous %}}  
-    <div class="previous page">
+    <span class="navi">
       <a class="previos page" href="{{ page.previous.url | relative_url }}">&lt; previos</a>
-    </div>
+    </span>
   {{% endif %}}
 
   {{% if page.next %}}
-    <div class="next page">
+    <span class="navi">
       <a class="next page" href="{{ page.next.url | relative_url }}">next &gt;</a>
-    </div>                    
+    </span>                    
   {{% endif %}}
