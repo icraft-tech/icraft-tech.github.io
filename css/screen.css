@@ -487,9 +487,9 @@ text-decoration: none; }
 }
 
 .pagination{
-  text-aling: center;
-  paddig-top: 1em; 
-  
+  text-align: center;
+  padding-top: 1em; 
+  font-size: xx-large;
   }
 
   .current{
@@ -507,12 +507,14 @@ text-decoration: none; }
     line-height: 2em;
     vertical-align: middle;
 
-    font-size: 1.33333333em;
-    line-height: .75em;
+    font-size: 1.0em;
+    line-height: 0.75em;
     vertical-align: -15%;
 }
 
-.currentnumber{
+.pagenumber{
      padding: 0.1em;
-  
+     
 }
+
+
