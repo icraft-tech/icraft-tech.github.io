@@ -487,17 +487,9 @@ text-decoration: none; }
 }
 
 .pagination{
-  @include pad();
-  display: flex;
-  flex-wrap: wrap;
-
-  &__item{
-
-    margin-right: 4px;
-    text-decoration: none;
-    display: block;
-    padding: 7px 16px;
-    border: $border;
+  text-aling: center;
+  paddig-top: 1em; 
+  
   }
 
   .current{
@@ -518,4 +510,9 @@ text-decoration: none; }
     font-size: 1.33333333em;
     line-height: .75em;
     vertical-align: -15%;
+}
+
+.currentnumber{
+     padding: 0.1em;
+  
 }
