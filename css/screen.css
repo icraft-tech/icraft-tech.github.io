@@ -479,14 +479,12 @@ code {
 text-decoration: none; }
 
 .nextpost{
- text-align: right;
- font-size: xx-large;
- padding-right: 50px;
+ font-size: x-large;
+ padding-left: 200px;
 }
 
 .previouspost{
- text-align: left;
- font-size: xx-large;
+ font-size: x-large;
  padding-left: 50px;
 }
 
