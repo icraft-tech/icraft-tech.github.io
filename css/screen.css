@@ -478,6 +478,18 @@ code {
     color: #E74727;
 text-decoration: none; }
 
+.nextpost{
+ text-align: right;
+ font-size: xx-large;
+ padding-right: 50px;
+}
+
+.previouspost{
+ text-align: left;
+ font-size: xx-large;
+ padding-left: 50px;
+}
+
 .abbreviation {
   width: 100%;
   white-space:nowrap;
@@ -514,7 +526,6 @@ text-decoration: none; }
 
 .pagenumber{
      padding: 0.1em;
-     
 }
 
 
