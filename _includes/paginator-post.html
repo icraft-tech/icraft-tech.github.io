@@ -1,12 +1,12 @@
 <nav class="pagination-post" role="navigation">
 {{% if page.previous %}}  
-    <span class="previouspost">
+    <span class="previouspost mt-lg-3">
       <a href="{{ page.previous.url | relative_url }}">&lt; previos</a>
     </span>
   {{% endif %}}
 
   {{% if page.next %}}
-    <span class="nextpost">
+    <span class="nextpost mt-lg-3">
       <a href="{{ page.next.url | relative_url }}">next &gt;</a>
     </span>                    
   {{% endif %}}
