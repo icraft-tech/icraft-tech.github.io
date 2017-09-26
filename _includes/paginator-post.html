@@ -1,12 +1,12 @@
-<nav class="pagination" role="navigation">
+<nav class="pagination-post" role="navigation">
 {{% if page.previous %}}  
-    <span class="mx-auto">
-      <a class="previos page" href="{{ page.previous.url | relative_url }}">&lt; previos</a>
+    <span class="previouspost">
+      <a href="{{ page.previous.url | relative_url }}">&lt; previos</a>
     </span>
   {{% endif %}}
 
   {{% if page.next %}}
-    <span class="mx-auto">
-      <a class="next page" href="{{ page.next.url | relative_url }}">next &gt;</a>
+    <span class="nextpost">
+      <a href="{{ page.next.url | relative_url }}">next &gt;</a>
     </span>                    
   {{% endif %}}
