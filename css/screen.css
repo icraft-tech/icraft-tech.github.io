@@ -531,5 +531,6 @@ text-decoration: none; }
 
 .top-body{
      width: 75%;
+     float: left;
 }
 
