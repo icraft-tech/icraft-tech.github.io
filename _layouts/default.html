@@ -13,21 +13,24 @@
   {% unless post.next %}
     {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
     {% capture month %}{{ post.date | date: '%m' }}{% endcapture %}
-   <a id="{{year}}{{nmonth}}" href="/archive/{{ month }}/{{ year }}.html">{{ month }}/{{ year }}</a>
-  
+   <ul class="sidestring">
+    <a id="{{year}}{{nmonth}}" href="/archive/{{ month }}/{{ year }}.html">{{ month }}/{{ year }}</a>
+   </ul>
  
   {% else %}
     {% capture month %}{{ post.date | date: '%m' }}{% endcapture %}
     {% capture nmonth %}{{ post.next.date | date: '%m' }}{% endcapture %}
     {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
     {% if month != nmonth %}
+   <ul class"sidestring">
    <a id="{{year}}{{nmonth}}" href="/archive/{{ month }}{{ year }}.html">{{ month }}/{{ year }}</a>
-  
+   </ul>
   {% else %}
     {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
     {% if year != nyear %}
-   <a id="{{year}}{{nmonth}}" href="/archive/{{ month }}{{ year }}.html">{{ month }}/{{ year }}</a>
-  
+   <ul class="sidestring">
+    <a id="{{year}}{{nmonth}}" href="/archive/{{ month }}{{ year }}.html">{{ month }}/{{ year }}</a>
+   </ul>
         {% endif %}
       {% endif %}
     {% endunless %}
