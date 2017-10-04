@@ -1,5 +1,6 @@
 {% if paginator.total_pages > 1 %}
-<nav class="pagination role=navigation">
+<div>
+ <nav class="pagination role=navigation">
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="navi">&laquo; Prev</a>
   {% else %}
@@ -21,5 +22,6 @@
   {% else %}
     <span class="navi">Next &raquo;</span>
   {% endif %}
-</nav>
+ </nav>
+</div>                      
 {% endif %}
