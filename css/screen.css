@@ -492,7 +492,7 @@ text-decoration: none; }
   width: 100%;
   overflow:hidden;
   text-overflow:ellipsis;
-  height: 100px
+  height: 99px
 }
 
 .pagination{
