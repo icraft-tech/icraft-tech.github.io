@@ -21,12 +21,12 @@
     {% capture nmonth %}{{ post.next.date | date: '%m' }}{% endcapture %}
     {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
     {% if month != nmonth %}
-   <a id="{{year}}{{nmonth}}" href="/archive/{{ month }}/{{ year }}.html">{{ month }}/{{ year }}</a>
+   <a id="{{year}}{{nmonth}}" href="/archive/{{ month }}{{ year }}.html">{{ month }}/{{ year }}</a>
   
   {% else %}
     {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
     {% if year != nyear %}
-   <a id="{{year}}{{nmonth}}" href="/archive/{{ month }}/{{ year }}.html">{{ month }}/{{ year }}</a>
+   <a id="{{year}}{{nmonth}}" href="/archive/{{ month }}{{ year }}.html">{{ month }}/{{ year }}</a>
   
         {% endif %}
       {% endif %}
