@@ -527,6 +527,8 @@ text-decoration: none; }
 
 .archive{
      width: 25%;
+     float: left;
+     padding-top: 100px;
 }
 
 .top-body{
