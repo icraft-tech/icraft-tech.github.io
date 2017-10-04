@@ -499,7 +499,8 @@ text-decoration: none; }
   text-align: center;
   padding-top: 1em; 
   font-size: xx-large;
-  }
+  margin-top: 1200px;
+ }
 
   .current{
     background: $color-main;
@@ -528,11 +529,13 @@ text-decoration: none; }
 .archive{
      width: 25%;
      float: left;
-     padding-top: 100px;
+     margin-top: 100px;
 }
 
 .top-body{
      width: 75%;
      float: left;
 }
+
+
 
