@@ -8,7 +8,7 @@
   
   {{ content }}
   
-  <div class="sidemenu">
+  <div class="sidemenu spNone" >
   {% for post in site.posts %}
   {% unless post.next %}
     {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
