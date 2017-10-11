@@ -543,4 +543,5 @@ text-decoration: none; }
 
 @media screen and (max-width: 480px){
 .spNone {       display:none;}
+.media-body{      width:100%;}
 }
