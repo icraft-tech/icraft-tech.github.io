@@ -202,7 +202,9 @@ code {
 
 /* Theme color utilities */
 .header-background {
-  background-color: #1856a3; }
+  background-color: #1856a3;
+  width:100vw;  
+}
 
 .header-border {
   border-color: #fff; }
