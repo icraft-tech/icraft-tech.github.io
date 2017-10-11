@@ -272,7 +272,8 @@ code {
   display: block !important; }
 
 .inline-block {
-  display: inline-block !important; }
+  display: inline-block !important;
+}
 
 .table {
   display: table !important; }
@@ -539,6 +540,8 @@ text-decoration: none; }
 
 .inline{
   display:inline-block;
+  position: relative;
+  width: 100vw;
 }
 
 @media screen and (max-width: 480px){
