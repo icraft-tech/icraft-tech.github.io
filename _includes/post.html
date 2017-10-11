@@ -40,13 +40,13 @@
     {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
     {% if month != nmonth %}
    <ul class"sidestring">
-   <a id="{{year}}{{nmonth}}" href="/archive/{{ month }}{{ year }}.html">{{ month }}/{{ year }}</a>
+   <a id="{{year}}{{nmonth}}" href="/archive/{{ month }}/{{ year }}.html">{{ month }}/{{ year }}</a>
    </ul>
   {% else %}
     {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
     {% if year != nyear %}
    <ul class="sidestring">
-    <a id="{{year}}{{nmonth}}" href="/archive/{{ month }}{{ year }}.html">{{ month }}/{{ year }}</a>
+    <a id="{{year}}{{nmonth}}" href="/archive/{{ month }}/{{ year }}.html">{{ month }}/{{ year }}</a>
    </ul>
         {% endif %}
       {% endif %}
