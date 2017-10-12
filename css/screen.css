@@ -312,7 +312,9 @@ code {
 
 .py-1 {
   padding-top: 8px;
-  padding-bottom: 8px; }
+  padding-bottom: 8px;
+  padding-right: 10px; 
+}
 
 .px-2 {
   padding-left: 16px;
