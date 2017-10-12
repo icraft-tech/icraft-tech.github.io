@@ -559,3 +559,9 @@ text-decoration: none; }
   margin-left: auto;
   line-height: 40px;
 }
+
+.pagination-post{
+  margin-right: auto;
+  margin-lrft: auto;
+  max-width: 30em;
+}
