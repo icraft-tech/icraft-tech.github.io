@@ -485,12 +485,14 @@ text-decoration: none; }
 
 .nextpost{
  font-size: x-large;
- padding-left: 200px;
+ float: right;
+ padding-right: 50px;
 }
 
 .previouspost{
  font-size: x-large;
  padding-left: 50px;
+ float: left;
 }
 
 .abbreviation {
@@ -563,5 +565,4 @@ text-decoration: none; }
 .pagination-post{
   margin-right: auto;
   margin-lrft: auto;
-  max-width: 30em;
 }
