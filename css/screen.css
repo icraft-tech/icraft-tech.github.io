@@ -483,54 +483,11 @@ code {
     color: #E74727;
 text-decoration: none; }
 
-.nextpost{
- font-size: x-large;
- float: right;
- padding-right: 50px;
-}
-
-.previouspost{
- font-size: x-large;
- padding-left: 50px;
- float: left;
-}
-
 .abbreviation {
   width: 100%;
   overflow:hidden;
   text-overflow:ellipsis;
   height: 99px
-}
-
-.pagination{
-  text-align: center;
-  padding-top: 1em; 
-  font-size: xx-large;
-  padding-bottom: 1em; 
-}
-
-  .current{
-    background: $color-main;
-    border-color: $color-main;
-    color: white;
-  }
-}
-
-.navi{
-    position: relative;
-    display: inline-block;
-    width: 2em;
-    height: 2em;
-    line-height: 2em;
-    vertical-align: middle;
-
-    font-size: 1.0em;
-    line-height: 0.75em;
-    vertical-align: -15%;
-}
-
-.pagenumber{
-     padding: 0.1em;
 }
 
 .sidemenu{
@@ -550,6 +507,53 @@ text-decoration: none; }
   width: 100vw;
 }
 
+/** pagination **/
+
+.pagination-post{
+  margin-right: auto;
+  margin-lrft: auto;
+}
+
+
+.pagination{
+  text-align: center;
+  padding-top: 1em; 
+  font-size: xx-large;
+  padding-bottom: 1em; 
+}
+
+.navi{
+    position: relative;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    vertical-align: middle;
+
+    font-size: 1.0em;
+    line-height: 0.75em;
+    vertical-align: -15%;
+}
+
+.pagenumber{
+     padding: 0.1em;
+}
+
+
+.nextpost{
+ font-size: x-large;
+ float: right;
+ padding-right: 50px;
+}
+
+.previouspost{
+ font-size: x-large;
+ padding-left: 50px;
+ float: left;
+}
+
+/** phone **/
+
 @media screen and (max-width: 480px){
 .spNone {       display:none;}
 .media-body{      width:100%;}
@@ -561,11 +565,30 @@ text-decoration: none; }
   line-height: 40px;
 }
 
-.pagination-post{
-  margin-right: auto;
-  margin-lrft: auto;
-}
 
 .post-color{
   background-color: #1856a3;
 }
+
+  .current{
+    background: $color-main;
+    border-color: $color-main;
+    color: white;
+  }
+
+/** archive page **/
+
+.post{
+  margin-left: 15%
+  font-size: x-large;
+  margin-right: auto;
+}
+
+.archive-month{
+  text-align: left;
+  margin-left: 10%
+  margin-top:100px;
+}
+
+
+
