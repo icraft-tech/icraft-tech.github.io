@@ -597,7 +597,8 @@ text-decoration: none; }
 }
 
 .archive-box{
-  margin: 0 auto;
+  margin: auto;
+  max-width: 800px;
 }
 
 
