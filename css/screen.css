@@ -183,7 +183,9 @@ code {
 /* Border utilities */
 .border-bottom-thick {
   border-bottom: 2px solid;
-  border-color: currentColor; }
+  border-color: currentColor;
+  background-color: #1856a3;
+}
 
 .border-bottom-thin {
   border-bottom: 1px solid;
