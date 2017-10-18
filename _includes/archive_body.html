@@ -13,11 +13,14 @@
   
  </header>
 
+<div class="archive-box">
 
-<div class="py-top"> 
+ <div class="py-top"> 
  <h1 class="archives-title">archives</h1>    
 </div>
 
+<hr>
+        
 <div class="archive-box">
 {% for post in site.posts %}
   {% unless post.next %}
@@ -52,4 +55,6 @@
   {% endunless %}
 {% endfor %}
 </ul>
+</div>
+
 </div>
