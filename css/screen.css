@@ -681,3 +681,17 @@ text-decoration: none; }
     padding: .2rem .1rem;
     display: inline-block;
 }
+
+.tagbox{
+    max-width: 500px;
+    margin: auto;
+    padding-top: 25px;
+}
+
+.tag-sortbox{
+  margin-top: 50px;
+}
+
+
+
+
