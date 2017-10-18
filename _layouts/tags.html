@@ -2,7 +2,8 @@
 
 <body>
 
-<p>あ</p>
+{% include tag-cloud.html %}
+
 {% assign tag_names = "" | split: "|"  %}
 
 {% for posts_by_tag in site.tags %}
