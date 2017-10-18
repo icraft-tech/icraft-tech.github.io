@@ -675,3 +675,9 @@ text-decoration: none; }
     color: white;
     text-align: center;
 }
+
+.tag-cloud li {
+    margin: 0;
+    padding: .2rem .1rem;
+    display: inline-block;
+}
