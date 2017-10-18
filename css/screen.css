@@ -485,6 +485,31 @@ code {
   .link-social:hover {
     text-decoration: none !important; }
 
+.sentence{
+  margin-right: auto;
+  margin-left: auto;
+  line-height: 40px;
+}
+
+.post-color{
+  background-color: #1856a3;
+}
+
+  .current{
+    background: $color-main;
+    border-color: $color-main;
+    color: white;
+  }
+
+.post-width{
+  max-width: 800px;
+}
+
+.footer-top{
+ margin-top: 100px;
+}
+
+
 .link-primary {
   font-weight: bold;
   text-decoration: none; }
@@ -515,6 +540,8 @@ text-decoration: none; }
   position: relative;
   width: 100vw;
 }
+
+
 
 /** pagination **/
 
@@ -569,26 +596,6 @@ text-decoration: none; }
 .media-body{      width:100%;}
 }
 
-.sentence{
-  margin-right: auto;
-  margin-left: auto;
-  line-height: 40px;
-}
-
-
-.post-color{
-  background-color: #1856a3;
-}
-
-  .current{
-    background: $color-main;
-    border-color: $color-main;
-    color: white;
-  }
-
-.post-width{
-  max-width: 800px;
-}
 
 /** archive page **/
 
