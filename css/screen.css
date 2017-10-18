@@ -609,5 +609,6 @@ text-decoration: none; }
   color:  #268bd2; 
 }
 
-
-
+.hr{
+  border-top: 1px solid #eee;
+}
