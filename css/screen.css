@@ -586,6 +586,10 @@ text-decoration: none; }
     color: white;
   }
 
+.post-width{
+  max-width: 800px;
+}
+
 /** archive page **/
 
 .posts{
