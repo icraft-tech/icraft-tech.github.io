@@ -8,7 +8,7 @@
 
 <section class="posts-by-tags">
   {% for tag_name in tag_names %}
-    <div>
+    <li>
       <h3 id="{{ tag_name }}">
         {{ tag_name | capitalize | replace: "_", " " }}
       </h3>
@@ -18,7 +18,7 @@
           {{ post.title }}
         </a>
       {% endfor %}
-    </div>
+    </li>
   {% endfor %}
 </section>
 
