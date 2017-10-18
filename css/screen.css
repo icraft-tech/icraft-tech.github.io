@@ -38,6 +38,7 @@ p {
   margin-bottom: 0.5em; }
 
 h1, h2, h3, h4, h5, h6 {
+  margin-top: 1em;
   margin-bottom: 32px; }
 
 h1, .h1 {
@@ -683,7 +684,6 @@ text-decoration: none; }
 .tagbox{
     max-width: 500px;
     margin: auto;
-    padding-top: 25px;
 }
 
 .tag-sortbox{
