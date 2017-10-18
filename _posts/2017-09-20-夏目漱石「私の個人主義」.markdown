@@ -3,6 +3,8 @@ layout: post
 title:  "夏目漱石「私の個人主義」"
 date:   2017-09-20 05:40:35 -0700
 categories: jekyll update
+tag:
+- 夏目漱石
 ---
 
 あなたは時間むしろどんな発見者に対する事のところが離さませなかっ。
