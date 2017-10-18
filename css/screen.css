@@ -38,7 +38,6 @@ p {
   margin-bottom: 0.5em; }
 
 h1, h2, h3, h4, h5, h6 {
-  margin-top: 1em;
   margin-bottom: 32px; }
 
 h1, .h1 {
@@ -343,7 +342,6 @@ code {
   padding-bottom: 40px; }
 
 .py-top{
-  padding-top: 30px;
   text-align: center;
 }
   
