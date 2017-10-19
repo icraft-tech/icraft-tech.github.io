@@ -224,7 +224,8 @@ code {
   fill: #E74727; }
 
 .header-link:hover {
-  color: #E74727 !important; }
+  background-color: rgba(3,25,51,0.6);;
+}
 
 .text-accent {
   color: #E74727; }
