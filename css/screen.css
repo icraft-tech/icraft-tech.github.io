@@ -224,7 +224,9 @@ code {
   fill: #E74727; }
 
 .header-link:hover {
-  background-color: rgba(3,25,51,0.6);;
+  background-color: rgba(3,25,51,0.6);
+  padding: 4px;
+  border-radius: 3px;
 }
 
 .text-accent {
