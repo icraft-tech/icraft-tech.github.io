@@ -15,7 +15,7 @@
       </h3>
 
       {% for post in site.tags[tag_name] %}
-        <a href="{{ post.url | prepend: baseurl }}">
+        <a class="post-link" href="{{ post.url | prepend: baseurl }}">
           {{ post.title }}
         </a>
       {% endfor %}
