@@ -514,6 +514,7 @@ code {
 
 .link-primary {
   font-weight: bold;
+  padding-left: 10px;
   text-decoration: none; }
   .link-primary:hover {
     color: #E74727;
