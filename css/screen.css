@@ -526,6 +526,10 @@ text-decoration: none; }
   height: 101px
 }
 
+.paddinghr{
+     padding-top: 15px;
+}
+
 .sidehr{
      border-top: 1px dashed #bbb;
 }
@@ -541,7 +545,11 @@ text-decoration: none; }
      margin-top: 100px;
      margtin-bottom: 25px;
      font-size: x-large;
-     font-weight: 700;
+     font-weight: 700;     
+}
+
+.sidetitle2{
+     font-weight: bold;
 }
 
 .sidemenu{
