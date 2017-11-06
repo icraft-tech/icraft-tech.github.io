@@ -572,6 +572,7 @@ text-decoration: none; }
 .top-body{
      width: 75%;
      float: left;
+     padding: 10px;
 }
 
 .inline{
@@ -724,6 +725,7 @@ text-decoration: none; }
 .tagbox{
     max-width: 500px;
     margin: auto;
+    padding: 10px;
 }
 
 .tag-sortbox{
