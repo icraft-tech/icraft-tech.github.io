@@ -726,14 +726,16 @@ text-decoration: none; }
 }
 
 .tagbox{
-    max-width: 500px;
+    max-width: 800px;
     margin: auto;
-    padding: 10px;
+    padding: 30px;
 }
 
 .tag-sortbox{
   margin-top: 50px;
   font-size: 20px;
+  max-width: 800px;
+  margin: auto;
 }
 
  .hr{
