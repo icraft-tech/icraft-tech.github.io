@@ -648,6 +648,10 @@ text-decoration: none; }
   margin-right: auto;
 }
 
+posts-by-tags{
+  padding-left: 50px;
+}
+
 .archive-month{
   text-align: left;
   margin-left: 10%;
