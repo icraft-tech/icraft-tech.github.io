@@ -3,7 +3,7 @@ layout: post
 title:  "github pageでブログ作成"
 date:   2017-11-08 20:40:35 -0700
 tags:
--Web
+- Web
 ---
 
 ##github pageでブログ作成
