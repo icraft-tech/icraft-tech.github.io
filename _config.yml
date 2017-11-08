@@ -38,6 +38,8 @@ server: true
 # paginate
 gems:
   - jekyll-paginate
+  - jekyll-feed
+  - jemoji
 paginate: 3
 paginate_path: "/page:num/"
 
