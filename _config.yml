@@ -28,7 +28,7 @@ cover:
 logo: 
 
 # Build settings
-markdown: kramdown
+markdown: KramdownPygments
 theme: jekyll-swiss
 plugins:
   - jekyll-feed
