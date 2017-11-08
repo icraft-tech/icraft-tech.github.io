@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "github pageでブログ作成"
-date:   2017-11-08 17:40:35 -0700
+date:   2017-11-08 20:40:35 -0700
 tags:
 -Web
 ---
@@ -78,14 +78,7 @@ index.html→page.html→include内のhtmlのようなかんじで呼び出さ�
 '記事の作成'
 postディレクトリにmdファイルを入れるだけで、自動でページが作成されます。
 ただ、記事の上部に以下を記載する必要があります。
----
-layout: post
-title:  "Welcome to Jekyll!"
-date:   2017-10-04 17:40:35 -0700
-categories: jekyll update
-tags:
--jekyll
----
+
 
 また、mdで指定したレイアウトファイルに{ content }と入れると、そのレイアウトで記事を表示できます。
 urlは、/2017/11/04/title
