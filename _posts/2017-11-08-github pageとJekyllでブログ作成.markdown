@@ -84,7 +84,7 @@ urlは、/2017/11/04/title
 topページに複数の記事を表示させたいのであれば、for文で書く。
 ```content
   {% for post in paginator.posts %}
-  &lt;a href="{{ post.url }}">{{ post.title }}&gt;&lt;/a&gt;
+  <a href="{{ post.url }}">{{ post.title }}>&lt;/a&gt;
   {% endfor %}
 ```
  こんな感じ
