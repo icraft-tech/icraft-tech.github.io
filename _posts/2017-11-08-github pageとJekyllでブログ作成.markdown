@@ -42,7 +42,7 @@ jekyllは、Liquidというテンプレートエンジンが使えます。
 複数のページの共通部分を、単一のファイルで共有できます。そこに修正が入った場合でも、1つのファイルだけで済むので便利です。
 
 ディレクトリ構成
-{% highlight ruby %}
+```
 root/
 ├ _config.yml----------------------------(設定ファイル)
 ├  index.html-----------------------(最初に読み込むhtml)
@@ -53,7 +53,7 @@ root/
 　　　　　├ top.html        
 　　　　　├ body.html
 　　　　　└ header.html
-{% endhighlight %}
+```
 
 'htmlファイルの読み込みの流れ'
 index.html→page.html→include内のhtmlのようなかんじで呼び出される。
@@ -62,7 +62,7 @@ index.html→page.html→include内のhtmlのようなかんじで呼び出さ�
 '記事の作成'
 postディレクトリにmdファイルを入れるだけで、自動でページが作成されます。
 ただ、記事の上部に以下を記載する必要があります。
-{% highlight ruby %}
+```
 ---
 layout: post
 title:  "Welcome to Jekyll!"
@@ -71,7 +71,7 @@ categories: jekyll update
 tags:
 - jekyll
 ---
-{% endhighlight %}
+```
 
 また、mdで指定したレイアウトファイルに{ content }と入れると、そのレイアウトで記事を表示できます。
 urlは、/2017/11/04/title
