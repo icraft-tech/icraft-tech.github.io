@@ -32,6 +32,7 @@ markdown: kramdown
 theme: jekyll-swiss
 plugins:
   - jekyll-feed
+highlightjs_theme: "atom-one-dark"
 auto: true
 server: true
 
