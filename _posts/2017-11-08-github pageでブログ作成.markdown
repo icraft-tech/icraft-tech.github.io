@@ -17,3 +17,15 @@ tags:
 まずは、以下で2つのツールを紹介します。
 
 
+{% highlight ruby %}
+root/
+├ _config.yml----------------------------(設定ファイル)
+├  index.html-----------------------(最初に読み込むhtml)
+├ cssーscreen.css-------------------------(cssファイル)
+├ _post                              (mdで書かれた記事)
+├ _layoutsーpage.html----------------------(レイアウト)
+├ _includes----------------------------(分割されたhtml)
+　　　　　├ top.html        
+　　　　　├ body.html
+　　　　　└ header.html
+{% endhighlight %}
