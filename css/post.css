@@ -1,18 +1,21 @@
-.highlight { 
-  background-color: #efefef;
-  padding: 7px 7px 7px 10px;
-  border: 1px solid #ddd;
-  -moz-box-shadow: 3px 3px rgba(0,0,0,0.1);
-  -webkit-box-shadow: 3px 3px rgba(0,0,0,0.1);
-  box-shadow: 3px 3px rgba(0,0,0,0.1);
-  margin: 20px 0 20px 0;
-  overflow: hidden;
-}
  
 code {
   font-family:'Bitstream Vera Sans Mono','Courier', monospace;
 }
  
+.highlighter-rouge {
+background-color: rgb(40, 44, 52);
+background-image: none;
+background-repeat: repeat;
+background-attachment: scroll;
+background-clip: border-box;
+background-origin: padding-box;
+background-position-x: 0%;
+background-position-y: 0%;
+background-size: auto auto;
+border-radius: 20px;
+
+}
 .highlight .c { color: #586E75 } /* Comment */
 .highlight .err { color: #93A1A1 } /* Error */
 .highlight .g { color: #93A1A1 } /* Generic */
