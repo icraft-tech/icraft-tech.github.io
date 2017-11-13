@@ -84,7 +84,7 @@ topページに複数の記事を表示させたいのであれば、以下の�
   <a href="{{ "{{ post.url " }}}}">{{ "{{ post.title " }}}}></a>
   {{ "{% endfor " }}%}
 ```
- こんな感じ
+
 各変数は、Jekyllの公式サイトで確認できます。
 
 
@@ -97,8 +97,8 @@ github pages+jekyllの構築をざっくりとした手順で書いておきま�
 4. githubでレポジトリ作成
 5. githubにプロジェクトをpush
 
-具体的な手順は、以下参照
 
+具体的な手順は、以下参照
 [GitHub Pages の Jekyll で Web サイトを無料公開する方法][url1]
 
 
