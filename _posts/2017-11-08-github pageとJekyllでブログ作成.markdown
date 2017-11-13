@@ -74,7 +74,7 @@ tags:
 
 レイアウトpost(mdで指定したレイアウトファイル)の本文に``{ content }``と入れると、そのレイアウトで記事を表示できます。
 urlは、上記の日付とタイトルを元に作成される。
-URL: https://アカウント名.hithub.io/posts/2017/11/04/title名
+<br>URL: https://アカウント名.hithub.io/posts/2017/11/04/title名
 
 
 topページに複数の記事を表示させたいのであれば、以下のように書く。
