@@ -62,7 +62,7 @@ root/
 <br>postディレクトリにmdファイルを入れるだけで、自動でページが作成されます。
 ただ、記事の上部に以下を記載する必要があります。
 
-{% highlight ruby %}
+{% highlight %}
 ---
 layout: post
 title:  "Welcome to Jekyll!"
