@@ -82,11 +82,10 @@ tags:
 urlは、/2017/11/04/title
 
 topページに複数の記事を表示させたいのであれば、for文で書く。
-```js
-  {% for post in paginator.posts %}
-  <a href="{{ post.url }}">{{ post.title }}>&lt;/a&gt;
-  {% endfor %}
-  endfor
+```html
+  {{ "{% for post in paginator.posts " }}%}
+  <a href="{{ "{{ post.url " }}}}">{{ "{{ post.title " }}}}></a>
+  {{ "{% endfor " }}%}
 ```
  こんな感じ
 
