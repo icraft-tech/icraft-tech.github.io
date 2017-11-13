@@ -55,11 +55,11 @@ root/
 {% endhighlight %}
 
 **htmlファイルの読み込みの流れ**
-index.html→page.html→include内のhtmlのようなかんじで呼び出される。
+<br>index.html→page.html→include内のhtmlのようなかんじで呼び出される。
 ページを増やしたいならば、root直下にhtmlを作成し、layoutファイルを指定します。
 
 **記事の作成**
-postディレクトリにmdファイルを入れるだけで、自動でページが作成されます。
+<br>postディレクトリにmdファイルを入れるだけで、自動でページが作成されます。
 ただ、記事の上部に以下を記載する必要があります。
 {% highlight ruby %}
 ---
