@@ -75,7 +75,7 @@ tags:
 
 レイアウトpost(mdで指定したレイアウトファイル)の本文に``{ content }``と入れると、そのレイアウトで記事を表示できます。
 urlは、上記の日付とタイトルを元に作成される。
-<br>URL: https://アカウント名.hithub.io/posts/2017/11/04/title名
+<br>URL : https://アカウント名.hithub.io/posts/2017/11/04/Welcome to Jekyll!
 
 
 topページに複数の記事を表示させたいのであれば、以下のように書く。
@@ -84,6 +84,7 @@ topページに複数の記事を表示させたいのであれば、以下の�
   <a href="{{ "{{ post.url " }}}}">{{ "{{ post.title " }}}}></a>
   {{ "{% endfor " }}%}
 ```
+
 各変数については、[Jekyllの公式サイト][url2]で確認できます。
 
 
