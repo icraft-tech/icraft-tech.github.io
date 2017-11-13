@@ -29,6 +29,8 @@ logo:
 
 # Build settings
 markdown: Kramdown
+redcarpet:
+  extensions: ["hard_wrap"]
 theme: jekyll-swiss
 plugins:
   - jekyll-feed
