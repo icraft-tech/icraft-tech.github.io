@@ -602,7 +602,7 @@ text-decoration: none; }
   padding-top: 1em; 
   font-size: xx-large;
   font-weight: bottom;
-  width: 300px;
+  max-width: 650px;
   margin: auto;
 } 
 
