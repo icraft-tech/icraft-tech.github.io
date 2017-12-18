@@ -532,7 +532,7 @@ text-decoration: none; }
   height: 101px
 }
 
-abbreviation h2 {
+.abbreviation h2 {
 display: none; 
 }
 
