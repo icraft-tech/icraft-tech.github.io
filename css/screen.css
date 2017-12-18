@@ -532,6 +532,10 @@ text-decoration: none; }
   height: 101px
 }
 
+abbreviation h2 {
+display: none; 
+}
+
 .paddinghr{
      padding-top: 15px;
 }
