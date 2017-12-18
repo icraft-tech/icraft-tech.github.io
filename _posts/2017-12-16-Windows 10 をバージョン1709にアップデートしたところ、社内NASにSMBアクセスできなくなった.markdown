@@ -1,11 +1,12 @@
 ---
-layout:post
+layout: post
 title:　"Windows 10 をバージョン1709にアップデートしたところ、社内NASにSMBアクセスできなくなった"
-date:2017-12-16 00:00:00 -0700
+date:   2017-12-16 00:00:00 -0700
 tags:
 - WindowsUpdate
 - SMB
 ---
+
 ## 現象
 先日、Windows10の端末にFall Creators Update（バージョン1709）を当てた所、
 社内のNAS（Terastation）に繋がらなくなった。
