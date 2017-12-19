@@ -529,7 +529,7 @@ text-decoration: none; }
   width: 100%;
   overflow:hidden;
   text-overflow:ellipsis;
-  height: 101px  
+  height: 101px;  
   margin: 0 auto 30px auto;
   position: relative;
   padding: 20px;
