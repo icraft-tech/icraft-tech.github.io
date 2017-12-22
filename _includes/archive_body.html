@@ -13,10 +13,10 @@
     {% capture month %}{{ post.date | date: '%m' }}{% endcapture %}
     <h2 class="archive-month" id="{{year}}{{nmonth}}">{{ month }}/{{ year }}</h2>
     <ul class="posts">
-      <li>
+      <p>
         <span class="post-date">{{ post.date | date_to_string }} &raquo;</span>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
+      </p>
   {% else %}
     {% capture month %}{{ post.date | date: '%m' }}{% endcapture %}
     {% capture nmonth %}{{ post.next.date | date: '%m' }}{% endcapture %}
@@ -33,10 +33,10 @@
         <ul class="posts">
       {% endif %}
     {% endif %}
-    <li>
+    <p>
       <span class="post-date">{{ post.date | date_to_string }} &raquo;</span>
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-    </li>
+    </p>
   {% endunless %}
 {% endfor %}
 </ul>
