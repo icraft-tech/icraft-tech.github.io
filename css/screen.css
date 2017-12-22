@@ -529,9 +529,10 @@ text-decoration: none; }
   height: 200px;  
   margin: 0 auto 30px auto;
   position: relative;
-  padding: 30px;
-  border: 1px solid #ddd;
   font-size: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
 }
 
 .abbreviation h2 {
