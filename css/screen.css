@@ -74,10 +74,7 @@ a:hover {
   text-decoration: underline; }
 
 pre {
-  border-left: 8px solid #ddd;
   margin: 32px 0;
-  padding-left: 16px;
-  width: 75%;
   overflow-x: auto; }
 
 code {
